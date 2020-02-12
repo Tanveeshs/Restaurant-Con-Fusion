@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0738776a-c4e1-4c88-acd3-97cea6457f14" name="Default Changelist" comment="second commit">
-      <change afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Tanveesh.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       <workItem from="1581183372742" duration="1317000" />
       <workItem from="1581351765206" duration="3747000" />
       <workItem from="1581418925230" duration="3342000" />
-      <workItem from="1581526192839" duration="838000" />
+      <workItem from="1581526192839" duration="2173000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1581352574143</created>
