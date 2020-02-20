@@ -81,6 +81,74 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="modalReserve" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Reserve a Table</h4>
+                <button class="close" data-dismiss="modal" type="button">
+                    &times;
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group row">
+                        <div class="col-12 col-sm-2">
+                            <label class="col-form-label">Number of guests</label>
+                        </div>
+                        <div class="col-12 col-sm-10 align-self-center">
+                            <div class="btn-group btn-group-toggle">
+                                <label class="mr-sm-4 mr-5"> <input type="radio" name="options22" id="options100" autocomplete="off">1</label>
+                                <label class="mr-sm-4  mr-5"> <input type="radio" name="options22" id="options101" autocomplete="off">2</label>
+                                <label class="mr-sm-4  mr-5"> <input type="radio" name="options22" id="options102" autocomplete="off">3</label>
+                                <label class="mr-sm-4 mr-5"> <input type="radio" name="options22" id="options103" autocomplete="off">4</label>
+                                <label class="mr-sm-4  mr-5"> <input type="radio" name="options22" id="options104" autocomplete="off">5</label>
+                                <label class="mr-5"> <input type="radio" name="options22" id="options105" autocomplete="off">6</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-12 col-sm-2">
+                            <label class="col-form-label">Section</label>
+                        </div>
+                        <div class="col-12 col-sm-10 align-self-center">
+                            <div class="btn-group-toggle btn-group" data-toggle="buttons">
+                                <label class="btn btn-success active">
+                                    <input type="radio" name="options" id="option1" checked autocomplete="off">Non-Smoking
+                                </label>
+                                <label class="btn btn-danger" name="options" id="option2" autocomplete="off">
+                                    <input type="checkbox" autocomplete="off">Smoking
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-12 col-sm-2">
+                            <label for="Date">Date and Time</label>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <input class="form-control" id="Date" placeholder="Date" type="text">
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <input class="form-control" id="Time" placeholder="Time" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                            <button class="btn btn-primary" type="submit">
+                                Reserve
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 <header class="jumbotron">
     <div class="container">
@@ -95,10 +163,7 @@
 
             </div>
             <div class="col-12 col-sm-3 align-self-center">
-                <a class="btn-sm btn btn-warning align-self-center btn-block" data-html="true"
-                   data-placement="bottom" data-toggle="tooltip"
-                   href="#Reserve"
-                   role="button" title="Or call us at <br><strong>+852 12345678 </strong>">Reserve Table</a>
+                <a class="btn-sm btn btn-warning align-self-center btn-block" data-target="#modalReserve" data-toggle="modal">Reserve Table</a>
             </div>
         </div>
     </div>
@@ -155,103 +220,6 @@
     </div>
 
 
-    <!--        <div class="row row-content align-items-center">-->
-    <!--            <div class="col-12 col-sm-4 col-md-3 order-sm-last">-->
-    <!--                <h3>Our Lipsmacking Culinary Creations</h3>-->
-    <!--            </div>-->
-    <!--            <div class="col col-sm col-md order-sm-first ">-->
-    <!--                <div class="media">-->
-    <!--                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthapizza">-->
-    <!--                    <div class="media-body">-->
-    <!--                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary ">$4.99</span></h2>-->
-    <!--                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-
-
-    <!--        <div class="row row-content align-items-center">-->
-    <!--            <div class="col-12 col-sm-4 col-md-3 order-sm-first">-->
-    <!--                <h3>This Month's Promotions</h3>-->
-    <!--            </div>-->
-    <!--            <div class="col col-sm col-md">-->
-    <!--                <div class="media">-->
-
-    <!--                    <div class="media-body">-->
-    <!--                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>-->
-    <!--                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>-->
-    <!--                    </div>-->
-    <!--                    <img src="img/buffet.png" alt="buffet" class="d-flex mr-3 img-thumbnail align-self-center">-->
-    <!--                </div>-->
-
-    <!--            </div>-->
-    <!--        </div>-->
-
-    <!--        <div class="row row-content align-items-center">-->
-    <!--            <div class="col-12 col-sm-4 col-md-3 order-sm-last">-->
-    <!--                <h3>Meet our Culinary Specialists</h3>-->
-    <!--            </div>-->
-    <!--            <div class="col col-sm col-md">-->
-    <!--                <div class="media">-->
-    <!--                    <img src="img/alberto.png" alt="Alberto" class="d-flex mr-3 img-thumbnail align-self-center">-->
-    <!--                    <div class="media-body">-->
-    <!--                        <h2 class="mt-0">Alberto Somayya</h2>-->
-    <!--                        <h4>Executive Chef</h4>-->
-    <!--                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-
-
-    <div class="row row-content align-items-center">
-        <div class="col-sm-6 offset-sm-3 mt-0">
-            <div class="card" id="Reserve">
-                <h3 class="card-header bg-warning text-white">Reserve Table</h3>
-                <div class="card-body">
-                    <form>
-                        <div class="form-group row">
-                            <div class="col-12 col-sm-2">
-                                <label class="col-form-label">Number of guests</label>
-                            </div>
-                            <div class="col-12 col-sm-10 align-self-center">
-                                <label class="mr-sm-4 mr-5"> <input type="radio">1</label>
-                                <label class="mr-sm-4  mr-5"> <input type="radio">2</label>
-                                <label class="mr-sm-4  mr-5"> <input type="radio">3</label>
-                                <label class="mr-sm-4 mr-5"> <input type="radio">4</label>
-                                <label class="mr-sm-4  mr-5"> <input type="radio">5</label>
-                                <label class="mr-5"> <input type="radio">6</label>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <div class="col-12 col-sm-2">
-                                <label for="Date">Date and Time</label>
-                            </div>
-                            <div class="col-12 col-sm-4">
-                                <input class="form-control" id="Date" placeholder="Date" type="text">
-                            </div>
-                            <div class="col-12 col-sm-4">
-                                <input class="form-control" id="Time" placeholder="Time" type="text">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <div class="offset-md-2 col-md-10">
-                                <button class="btn btn-primary" type="submit">
-                                    Reserve
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-
-            </div>
-        </div>
-
-    </div>
 </div>
 
 <footer class="footer">
@@ -303,12 +271,7 @@
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-    });
 
-</script>
 </body>
 
 </html>
