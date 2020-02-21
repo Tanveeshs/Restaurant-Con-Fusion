@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0738776a-c4e1-4c88-acd3-97cea6457f14" name="Default Changelist" comment="Bootstrap JQuery">
+    <list default="true" id="0738776a-c4e1-4c88-acd3-97cea6457f14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       <workItem from="1581700907944" duration="27000" />
       <workItem from="1581760262174" duration="934000" />
       <workItem from="1582217006859" duration="5753000" />
-      <workItem from="1582278742098" duration="1620000" />
+      <workItem from="1582278742098" duration="2132000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1581352574143</created>
@@ -71,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581352574143</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bootstrap JQuery">
+      <created>1582280436580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582280436580</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
