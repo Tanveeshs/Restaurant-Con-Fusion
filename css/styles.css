@@ -63,3 +63,13 @@ body{
 .carousel-caption {
     padding: 50px;
 }
+
+.modal-header {
+    background: #512DA8;
+    color: floralwhite; }
+
+.modal-body {
+    background: #D1C4E9; }
+.close {
+    color: floralwhite;
+}

@@ -33,7 +33,7 @@
 
             </ul>
             <span class="navbar-text">
-                <a data-target="#loginModal" data-toggle="modal">
+                <a id="LoginLink">
                     <span class="fa fa-sign-in"></span> Login
                 </a>
             </span>
@@ -165,7 +165,7 @@
 
             </div>
             <div class="col-12 col-sm-3 align-self-center">
-                <a class="btn-sm btn btn-warning align-self-center btn-block" data-target="#modalReserve" data-toggle="modal">Reserve Table</a>
+                <a class="btn-sm btn btn-warning align-self-center btn-block" id="ReserveButton">Reserve Table</a>
             </div>
         </div>
     </div>
@@ -278,19 +278,25 @@
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script>
     $(document).ready(function () {
-        $('#mycarousel').carousel({ interval:1000 });
+        $('#mycarousel').carousel({interval: 1000});
         $('#carouselButton').click(function () {
-            if($('#carouselButton').children('span').hasClass('fa-pause')) {
+            if ($('#carouselButton').children('span').hasClass('fa-pause')) {
                 $('#mycarousel').carousel('pause');
                 $('#carouselButton').children('span').removeClass('fa-pause');
                 $('#carouselButton').children('span').addClass('fa-play');
-            }
-            else {
-                    $('#mycarousel').carousel('cycle');
-                    $('#carouselButton').children('span').removeClass('fa-play');
-                    $('#carouselButton').children('span').addClass('fa-pause');
+            } else {
+                $('#mycarousel').carousel('cycle');
+                $('#carouselButton').children('span').removeClass('fa-play');
+                $('#carouselButton').children('span').addClass('fa-pause');
             }
 
+        });
+        $('#ReserveButton').click(function () {
+            $('#modalReserve').modal();
+
+        });
+        $('#LoginLink').click(function () {
+            $('#loginModal').modal();
         });
     });
 </script>
